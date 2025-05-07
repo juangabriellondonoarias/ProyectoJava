@@ -1,0 +1,27 @@
+import java.util.Scanner; //importamos la clase Scanner para poder leer datos desde consola
+
+public class ventana {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in); //creamos un objeto de tipo Scanner para leer datos desde consola
+        
+        //solicitamos el nombre de la persona
+        System.out.println("Ingrese su nombre: ");
+        String nombre = entrada.nextLine();
+        
+        //solicitamos la edad de la persona
+        System.out.println("Ingrese su edad: ");
+        int edad = entrada.nextInt();
+        
+        //solicitamos la dirección de la persona
+        System.out.println("Ingrese su dirección: ");
+        entrada.nextLine(); //limpiamos el buffer de entrada
+        String direccion = entrada.nextLine();
+        
+        //imprimimos los datos de la persona
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Dirección: " + direccion);
+
+        entrada.close(); //cerramos el objeto Scanner cuando ya no es necesario
+    }
+}

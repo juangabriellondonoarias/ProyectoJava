@@ -1,0 +1,12 @@
+import javax.swing.JOptionPane;
+
+public class ventana {
+
+	public static void main(String[] args) {
+	
+		String saludo=JOptionPane.showInputDialog(null, "Escribe tu Nombre");
+		System.out.println("Hola"  + saludo +  "como estas");
+
+	}
+
+}

@@ -1,0 +1,84 @@
+import javax.swing.JOptionPane;
+
+public class ventana {
+
+	public static void main(String[] args) {
+		// Condicionales.
+//		int edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad"));
+//		
+//		if(edad >= 18) {
+//			if(edad == 25) {
+//				System.out.println(JOptionPane.showConfirmDialog(null, "Ud es mayor de edad y tiene 25 años"));
+//			} else {
+//				System.out.println(JOptionPane.showConfirmDialog(null,"Ud es mayor de edad"));
+//			}
+//		}else {
+//			System.out.println(JOptionPane.showConfirmDialog(null, "Ud es menor de edad"));
+//		}
+		
+		
+		
+		// switch case.
+	/*	int x = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero del 1 al 5"));
+		switch(x) {
+			case 1: System.out.println(JOptionPane.showConfirmDialog(null,"Elegiste el numero 1"));
+				break;
+			case 2: System.out.println(JOptionPane.showConfirmDialog(null,"Elegiste el numero 2"));
+				break;
+			case 3: System.out.println(JOptionPane.showConfirmDialog(null,"Elegiste el numero 3"));
+				break;
+			case 4: System.out.println(JOptionPane.showConfirmDialog(null,"Elegiste el numero 4"));
+				break;
+			case 5: System.out.println(JOptionPane.showConfirmDialog(null,"Elegiste el numero 5"));
+				break;
+			default : System.out.println(JOptionPane.showConfirmDialog(null,"El numero que Ingresaste no esta disponible"));
+				break;
+		}*/
+		
+		
+		// Ciclo do while.
+		/*int z = 1;
+		int b = 10;
+		do {
+			System.out.println(z);
+			z++;
+		} while (z <= 10);
+		
+		System.out.println("---------------------");
+		
+		do {
+			System.out.println(b);
+			b--;
+		} while (b >= 1);*/
+		
+		
+		int a = 1;
+		while (a >= 10) {
+			System.out.print(a);
+			a++;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

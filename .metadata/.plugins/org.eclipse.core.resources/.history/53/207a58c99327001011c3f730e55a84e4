@@ -1,0 +1,8 @@
+import javax.swing.JOptionPane;
+
+public class ventana {
+	public static void main(String arg[]){
+		
+		System.out.println("Hola mundo");
+	}
+}
